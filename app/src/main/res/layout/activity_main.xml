@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="40dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:onClick="alertDialog"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Alert Dialog" />
+
+    <Button
+        android:onClick="customDialog"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Custom Dialog" />
+
+    <Button
+        android:onClick="progressDialog"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Progress Dialog" />
+
+    <Button
+        android:onClick="pickDate"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Pick Date" />
+
+    <Button
+        android:onClick="pickTime"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Pick Time" />
+
+</LinearLayout>
